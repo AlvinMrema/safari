@@ -1,0 +1,114 @@
+/* GENERAL STYLES */
+
+* {
+  margin: 0;
+}
+
+:root {
+  --main-color: rgb(255, 153, 51, 1);
+}
+
+body {
+  background-color: rgba(104, 104, 104, 0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+#home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/assets/img/simba.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  background-attachment: fixed;
+}
+
+/* Navigation Bar Styles */
+nav {
+  background-color: rgba(0, 0, 0, 1);
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  z-index: 1;
+}
+
+nav ul {
+  display: inline-block;
+  padding: 0.75rem;
+  width: 50%;
+}
+
+nav ul li {
+  display: inline;
+  line-height: 1.5;
+  margin: 0 1em;
+}
+
+nav a {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+nav a:hover {
+  border-bottom: 1px solid var(--main-color);
+}
+
+/* Header Styles */
+header {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  top: 40vh;
+  text-align: center;
+}
+
+header h1,
+header p {
+  color: var(--main-color);
+}
+
+h1, header p {
+    margin-bottom: 20px;
+}
+
+
+/* Button */
+.button {
+    display: inline-block;
+    width: 6rem;
+    height: 1.5rem;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.button a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color);
+    color:rgba(0, 0, 0, 1);
+}
+
+.button a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--main-color);
+}
+
+
+/* MAIN Part Styles */
+main {
+    padding-top: 50vh;
+}

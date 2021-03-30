@@ -27,14 +27,15 @@ a {
     url("/assets/img/simba.jpg");
   background-size: cover;
   background-position: center;
-  height: 95vh;
+  height: 580px;
   background-attachment: fixed;
 }
 
 /* Navigation Bar Styles */
 nav {
   background-color: rgba(0, 0, 0, 1);
-  position: fixed;
+  position: sticky;
+  top: 0;
   height: 50px;
   width: 100%;
   list-style: none;
@@ -109,6 +110,6 @@ h1, header p {
 
 
 /* MAIN Part Styles */
-main {
+/* main {
     padding-top: 50vh;
-}
+} */

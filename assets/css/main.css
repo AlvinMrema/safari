@@ -27,6 +27,10 @@ h2 {
   font-size: 2.5rem;
 }
 
+ul {
+  padding-left: 0;
+}
+
 ul li {
   list-style: none;
 }
@@ -43,7 +47,7 @@ footer {
 nav,
 footer {
   background-color: rgba(0, 0, 0, 1);
-  height: 50px;
+  height: 2.5rem;
   width: 100%;
 }
 
@@ -68,7 +72,6 @@ nav ul {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
-  padding-left: 0;
 }
 
 nav ul li {
@@ -163,8 +166,79 @@ section p {
 }
 
 section h2,
+section h3,
 section p {
   text-align: center;
+}
+
+#briefs {
+  height: 360px;
+}
+
+#briefs ul {
+  display: flex;
+  flex-flow: row wrap;
+  /* align-items: center; */
+  /* justify-content: space-around; */
+}
+
+#briefs ul li {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid;
+  border-radius: 5px;
+  flex: 1;
+
+  /* display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around; */
+}
+
+#briefs li:first-child {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/assets/img/giraf-2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+}
+
+#briefs li:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/assets/img/nyati.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+}
+
+#briefs li:nth-child(3) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/assets/img/giraf.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+}
+
+#briefs li:last-child {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/assets/img/zebras.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+}
+
+#briefs li p,
+#briefs h3 {
+  color: var(--main-color);
+  text-align: center;
+}
+
+#briefs li p {
+  padding: 5px;
+  margin-bottom: 0;
 }
 
 /* FOOTER Part Styles */

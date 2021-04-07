@@ -158,6 +158,10 @@ section h2 {
   padding: 10px;
 }
 
+section h2:first-child {
+  text-transform: uppercase;
+}
+
 section p {
   margin-bottom: 5px;
   padding: 15px;
@@ -177,15 +181,16 @@ section p {
 
 #briefs ul {
   display: flex;
-  flex-flow: row wrap;
   /* align-items: center; */
-  /* justify-content: space-around; */
+  justify-content: space-around;
+  flex-flow: row wrap;
 }
 
 #briefs ul li {
   background-color: rgba(0, 0, 0, 0.7);
   border: 1px solid;
   border-radius: 5px;
+  margin: 10px;
   flex: 1;
 
   /* display: flex;
@@ -197,7 +202,7 @@ section p {
 #briefs li:first-child {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/assets/img/giraf-2.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: local;
@@ -206,7 +211,7 @@ section p {
 #briefs li:nth-child(2) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/assets/img/nyati.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: local;
@@ -215,7 +220,7 @@ section p {
 #briefs li:nth-child(3) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/assets/img/giraf.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: local;
@@ -224,7 +229,7 @@ section p {
 #briefs li:last-child {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/assets/img/zebras.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: local;
@@ -238,7 +243,7 @@ section p {
 
 #briefs li p {
   padding: 5px;
-  margin-bottom: 0;
+  margin: 5px 0;
 }
 
 /* FOOTER Part Styles */

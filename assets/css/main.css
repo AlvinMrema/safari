@@ -193,46 +193,30 @@ section p {
   margin: 10px;
   flex: 1;
 
-  /* display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: space-around; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
 }
 
 #briefs li:first-child {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/assets/img/giraf-2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: local;
 }
 
 #briefs li:nth-child(2) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/assets/img/nyati.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: local;
 }
 
 #briefs li:nth-child(3) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/assets/img/giraf.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: local;
 }
 
 #briefs li:last-child {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/assets/img/zebras.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: local;
 }
 
 #briefs li p,
@@ -244,6 +228,7 @@ section p {
 #briefs li p {
   padding: 5px;
   margin: 5px 0;
+  line-height: 1.3;
 }
 
 /* FOOTER Part Styles */

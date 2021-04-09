@@ -245,13 +245,13 @@ section p {
 }
 
 #journey article {
-  margin: .5rem;
+  padding: .5rem;
 }
 
 #journey article ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: .5rem;
 }
 
 #journey article li {
